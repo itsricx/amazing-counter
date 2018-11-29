@@ -6,7 +6,10 @@ public class Contador {
 		
 		
 		for(int i = 1; i<101; i++) {
-			System.out.println(i);
+			if(i % 2 == 0) {
+				System.out.println(i);
+				
+			}
 		}
 		
 	}
